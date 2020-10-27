@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Option Set Screen Buttons</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <div class="export"></div>
+    <div class="import"></div>
+    <div class="exit"></div>
+    <div class="next"></div>
+    <div class="details">
+      <div class="exportDetail">
+        <ul>
+          <li>Provides the ability to export specific option layers</li>
+          <li>Exports any configuration options in the selected option layers that are changed from default</li>
+          <li>Option Sets that are not Option Layers is not supported</li>
+          <li>Export is primarily used on a Lane SDK or BOSS SDK</li>
+          <li>Creates a <b>JAR File</b>, also called a Java ARchive</li>
+        </ul>
+      </div>
+      <div class="importDetail">
+        <ul>
+          <li>Imports the configuration changes to the appropriate option layers</li>
+          <li>Import is primarily used to import configuration changes in option layers that are only available in an SDK</li>
+        </ul>
+      </div>
+      <div class="nextDetail">
+        <ul>
+          <li>Activates the Options View Screen</li>
+          <li>Requires selection of an option set and either store or a specific lane</li>
+        </ul>
+      </div>
+      <div class="exitDetail">
+        <ul>
+          <li>Closes the BOSS and Lane Configuration Tool</li>
+        </ul>
+      </div>
+    </div>
+    <div class="label">
+      <p class="exportLabel">Export Button</p>
+      <p class="importLabel">Import Button</p>
+      <p class="nextLabel">Next Button</p>
+      <p class="exitLabel">Exit Button</p>
+    </div>
+  </main>
+  <script src="main.js"></script>
+</body>
+</html>
