@@ -5,7 +5,7 @@ const selectors = {
 const buttons = ["export","import","next","exit"];
 
 selectors.body.addEventListener("click", function(event) {
-  const classname = event.explicitOriginalTarget.className;
+  const classname = event.target.className;
   if (buttons.includes(classname)) {
     showLabel(classname);
     showDetail(classname);
